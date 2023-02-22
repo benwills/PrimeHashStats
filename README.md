@@ -6,7 +6,7 @@ What this will do is take a file (binary, not text) of 64-bit prime numbers, the
       - foreach key of keylen...
         - "Hash" the key by multiplying the prime it against sets of keys (ascii, memory-mapped, mo break between each key).
           - Count/accumulate the number of bits set at each bit position, summing with all other previous keys
-          - "Avalanching" calculation by modifying each bit of the key, then "re-hashing" and counting the _differing_ bits.
+          - "Avalanching" calculation by modifying each bit of the key, then "re-hashing" and counting and accumulating the _differing_ bits.
     - When all keys have been analyzed for that particular prime:
       - Run additional analysis of bits being set, as well as avalanching properties.
       - Store the complete set of data (bit counts, avalanching bit counts, etc) for later writing in batch to disk.
