@@ -18,7 +18,7 @@ Once a file has been written to disk, it can be read/filtered by using PrimeStat
 
 Here is a sample output of the data:
 
-`
+```
   --------------------------------------------------------------------------------
   14847499675007046253
 
@@ -47,4 +47,4 @@ Here is a sample output of the data:
   .ava.pop.sum       14866 1762853 6664104 8657666 8734848 8813199 8905062 8986931
   .ava.pop.gap          44      52      54      58      59      59      59      59
   .ava.pop.avg          29      28      27      27      21      18      15      14
-`
+```
